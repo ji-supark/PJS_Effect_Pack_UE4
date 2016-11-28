@@ -1,0 +1,850 @@
+﻿Log file open, 11/28/16 21:07:14
+LogInit:Display: Running engine for game: PJS_Effect_Pack_UE4
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2085307140) SRandInit(2085307140).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.108817
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.28-12.07.15:332][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.28-12.07.15:332][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.28-12.07.15:405][  0]LogInit: Computer: SHINSO_
+[2016.11.28-12.07.15:405][  0]LogInit: User: shinso
+[2016.11.28-12.07.15:405][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.11.28-12.07.15:405][  0]LogInit: High frequency timer resolution =3.704016 MHz
+[2016.11.28-12.07.15:405][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.11.28-12.07.15:405][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.28-12.07.15:405][  0]LogMemory: Process Physical Memory: 262.95 MB used, 262.95 MB peak
+[2016.11.28-12.07.15:405][  0]LogMemory: Process Virtual Memory: 262.04 MB used, 262.04 MB peak
+[2016.11.28-12.07.15:405][  0]LogMemory: Physical Memory: 5112.31 MB used,  3012.85 MB free, 8125.16 MB total
+[2016.11.28-12.07.15:405][  0]LogMemory: Virtual Memory: 652.23 MB used,  3012.85 MB free, 134217728.00 MB total
+[2016.11.28-12.07.15:657][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.11.28-12.07.15:916][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.11.28-12.07.15:917][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.11.28-12.07.15:917][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.11.28-12.07.15:917][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files (x86)/Epic Games/4.14/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.11.28-12.07.19:914][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.28-12.07.19:939][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2016.11.28-12.07.19:939][  0]LogD3D11RHI:       1002/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.11.28-12.07.19:942][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.28-12.07.19:942][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.28-12.07.19:942][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.28-12.07.19:948][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.28-12.07.19:948][  0]LogD3D11RHI:     GPU DeviceId: 0x683d (for the marketing name, search the web for "GPU Device Id")
+[2016.11.28-12.07.19:948][  0]LogWindows: EnumDisplayDevices:
+[2016.11.28-12.07.19:949][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2016.11.28-12.07.19:949][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:1)
+[2016.11.28-12.07.19:950][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.11.28-12.07.19:951][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2016.11.28-12.07.19:952][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.11.28-12.07.19:952][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2016.11.28-12.07.19:952][  0]LogD3D11RHI:   Driver Version: Crimson 16.11.3 (internal:21.19.160.769, unified:21.19.160.769)
+[2016.11.28-12.07.19:952][  0]LogD3D11RHI:      Driver Date: 11-8-2016
+[2016.11.28-12.07.19:952][  0]LogRHI: Texture pool is 701 MB (70% of 1002 MB)
+[2016.11.28-12.07.19:965][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.28-12.07.19:977][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.11.28-12.07.19:978][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Intermediate/Shaders/WorkingDirectory/5416/).
+[2016.11.28-12.07.19:978][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/shinso/AppData/Local/Temp/UnrealShaderWorkingDir/77A4E4204A4B36093B446D9A7B6EC819/'.
+[2016.11.28-12.07.19:978][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.28-12.07.24:538][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.28-12.07.24:719][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.28-12.07.24:876][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.28-12.07.25:029][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.28-12.07.25:198][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.28-12.07.25:351][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.28-12.07.25:541][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.28-12.07.25:742][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.28-12.07.25:959][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.28-12.07.26:171][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.28-12.07.26:324][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.28-12.07.26:471][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.28-12.07.26:621][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.28-12.07.26:764][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.28-12.07.26:914][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.28-12.07.27:225][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.28-12.07.27:225][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.28-12.07.27:346][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.28-12.07.27:586][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.28-12.07.27:665][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.28-12.07.27:808][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.28-12.07.27:954][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.28-12.07.28:106][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.28-12.07.28:270][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.28-12.07.28:270][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.28-12.07.29:523][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.28-12.07.30:104][  0]LogDerivedDataCache: Loaded boot cache 0.58s 64MB C:/Users/shinso/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.28-12.07.30:104][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/shinso/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.28-12.07.30:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.28-12.07.30:104][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.28-12.07.30:105][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.28-12.07.30:105][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.28-12.07.30:127][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.28-12.07.30:141][  0]LogDerivedDataCache: Using Local data cache path C:/Users/shinso/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.28-12.07.30:733][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.28-12.07.30:745][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.28-12.07.31:282][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.28-12.07.31:415][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.28-12.07.31:562][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.28-12.07.31:562][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.28-12.07.31:562][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.28-12.07.32:649][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: pjs_effect_pack_ue4, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2249696847
+[2016.11.28-12.07.32:750][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2016.11.28-12.07.32:927][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.107595 seconds
+[2016.11.28-12.07.32:938][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.28-12.07.32:938][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2016.11.28-12.07.32:938][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.28-12.07.33:126][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.28-12.07.35:641][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.28-12.07.35:653][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.28-12.07.35:654][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.28-12.07.55:547][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.28-12.07.55:658][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.28-12.07.56:565][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.28-12.07.57:505][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.11.28-12.07.57:653][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.11.28-12.07.57:782][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.11.28-12.07.57:906][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.11.28-12.08.01:151][  0]LogEngine: Initializing Engine...
+[2016.11.28-12.08.01:153][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.28-12.08.01:630][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.28-12.08.01:645][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.28-12.08.01:663][  0]LogInit: FAudioDevice initialized.
+[2016.11.28-12.08.01:721][  0]LogDerivedDataCache: Saved boot cache 0.06s 64MB C:/Users/shinso/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.28-12.08.01:743][  0]LogInit: Texture streaming: Enabled
+[2016.11.28-12.08.02:301][  0]LogInit: Transaction tracking system initialized
+[2016.11.28-12.08.03:256][  0]BlueprintLog: New page: 에디터 로드
+[2016.11.28-12.08.05:487][  0]LogInit:Warning: CVar named 'r.MobileHDR' marked up in RendererSettings was not found or is set to read-only
+[2016.11.28-12.08.05:942][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.11.28-12.08.07:779][  0]LogConsoleResponse:Display: 
+[2016.11.28-12.08.08:120][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/' took 0.04s
+[2016.11.28-12.08.08:120][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.28-12.08.08:120][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.28-12.08.10:919][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.11.28-12.08.11:094][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/MobileStarterContent.upack)
+[2016.11.28-12.08.11:186][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.11.28-12.08.11:242][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
+[2016.11.28-12.08.11:246][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
+[2016.11.28-12.08.11:252][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
+[2016.11.28-12.08.11:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
+[2016.11.28-12.08.11:261][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
+[2016.11.28-12.08.11:265][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
+[2016.11.28-12.08.11:268][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.11.28-12.08.11:272][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.11.28-12.08.11:276][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.11.28-12.08.11:279][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.11.28-12.08.11:285][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Collapse01.uasset"
+[2016.11.28-12.08.11:290][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Collapse02.uasset"
+[2016.11.28-12.08.11:294][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
+[2016.11.28-12.08.11:299][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Explosion01.uasset"
+[2016.11.28-12.08.11:311][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Explosion02.uasset"
+[2016.11.28-12.08.11:315][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
+[2016.11.28-12.08.11:322][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Fire01.uasset"
+[2016.11.28-12.08.11:324][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
+[2016.11.28-12.08.11:333][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
+[2016.11.28-12.08.11:336][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.11.28-12.08.11:341][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Light01.uasset"
+[2016.11.28-12.08.11:344][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
+[2016.11.28-12.08.11:349][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Light02.uasset"
+[2016.11.28-12.08.11:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
+[2016.11.28-12.08.11:358][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Smoke01.uasset"
+[2016.11.28-12.08.11:361][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
+[2016.11.28-12.08.11:365][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.11.28-12.08.11:385][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
+[2016.11.28-12.08.11:458][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
+[2016.11.28-12.08.11:484][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.11.28-12.08.11:524][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
+[2016.11.28-12.08.11:549][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
+[2016.11.28-12.08.11:594][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Steam01.uasset"
+[2016.11.28-12.08.11:601][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
+[2016.11.28-12.08.11:623][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.11.28-12.08.11:633][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.11.28-12.08.11:644][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.11.28-12.08.11:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.11.28-12.08.11:658][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.11.28-12.08.11:663][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.11.28-12.08.11:677][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Maps/Minimal_Default.umap"
+[2016.11.28-12.08.11:687][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2016.11.28-12.08.11:739][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Maps/StarterMap.umap"
+[2016.11.28-12.08.11:808][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Maps/StarterMap_BuiltData.uasset"
+[2016.11.28-12.08.11:850][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
+[2016.11.28-12.08.11:855][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
+[2016.11.28-12.08.11:861][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.11.28-12.08.11:869][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.11.28-12.08.11:877][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.11.28-12.08.11:885][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.11.28-12.08.11:891][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.11.28-12.08.11:897][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.11.28-12.08.11:902][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.11.28-12.08.11:907][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.11.28-12.08.11:912][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.11.28-12.08.11:917][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.11.28-12.08.11:922][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.11.28-12.08.11:925][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.11.28-12.08.11:929][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.11.28-12.08.11:933][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Glass.uasset"
+[2016.11.28-12.08.11:937][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
+[2016.11.28-12.08.11:941][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.11.28-12.08.11:945][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
+[2016.11.28-12.08.11:949][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.11.28-12.08.11:953][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.11.28-12.08.11:956][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.11.28-12.08.11:961][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
+[2016.11.28-12.08.11:965][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
+[2016.11.28-12.08.11:976][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
+[2016.11.28-12.08.11:979][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
+[2016.11.28-12.08.11:984][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.11.28-12.08.11:988][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.11.28-12.08.11:992][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.11.28-12.08.11:996][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
+[2016.11.28-12.08.12:000][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.11.28-12.08.12:004][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.11.28-12.08.12:008][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.11.28-12.08.12:012][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
+[2016.11.28-12.08.12:016][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
+[2016.11.28-12.08.12:020][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
+[2016.11.28-12.08.12:024][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.11.28-12.08.12:028][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.11.28-12.08.12:031][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
+[2016.11.28-12.08.12:035][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
+[2016.11.28-12.08.12:039][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.11.28-12.08.12:045][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.11.28-12.08.12:050][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/P_Explosion.uasset"
+[2016.11.28-12.08.12:054][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/P_Fire.uasset"
+[2016.11.28-12.08.12:077][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/P_Smoke.uasset"
+[2016.11.28-12.08.12:098][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/P_Sparks.uasset"
+[2016.11.28-12.08.12:101][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
+[2016.11.28-12.08.12:105][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.11.28-12.08.12:109][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.11.28-12.08.12:112][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.11.28-12.08.12:116][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.11.28-12.08.12:119][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.11.28-12.08.12:123][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.11.28-12.08.12:126][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.11.28-12.08.12:129][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
+[2016.11.28-12.08.12:134][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/MaterialSphere.uasset"
+[2016.11.28-12.08.12:138][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Bush.uasset"
+[2016.11.28-12.08.12:143][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Chair.uasset"
+[2016.11.28-12.08.12:147][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
+[2016.11.28-12.08.12:151][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Couch.uasset"
+[2016.11.28-12.08.12:156][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Door.uasset"
+[2016.11.28-12.08.12:159][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
+[2016.11.28-12.08.12:163][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
+[2016.11.28-12.08.12:181][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.11.28-12.08.12:185][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.11.28-12.08.12:202][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.11.28-12.08.12:210][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
+[2016.11.28-12.08.12:228][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
+[2016.11.28-12.08.12:232][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Rock.uasset"
+[2016.11.28-12.08.12:236][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Shelf.uasset"
+[2016.11.28-12.08.12:269][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Stairs.uasset"
+[2016.11.28-12.08.12:276][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_Statue.uasset"
+[2016.11.28-12.08.12:293][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_TableRound.uasset"
+[2016.11.28-12.08.12:296][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
+[2016.11.28-12.08.12:307][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
+[2016.11.28-12.08.12:311][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
+[2016.11.28-12.08.12:315][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
+[2016.11.28-12.08.12:318][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
+[2016.11.28-12.08.12:322][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
+[2016.11.28-12.08.12:326][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.11.28-12.08.12:329][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.11.28-12.08.12:333][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
+[2016.11.28-12.08.12:336][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
+[2016.11.28-12.08.12:340][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
+[2016.11.28-12.08.12:344][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.11.28-12.08.12:347][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
+[2016.11.28-12.08.12:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
+[2016.11.28-12.08.12:355][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
+[2016.11.28-12.08.12:359][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.11.28-12.08.12:363][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.11.28-12.08.12:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
+[2016.11.28-12.08.12:371][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.11.28-12.08.12:374][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.11.28-12.08.12:378][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
+[2016.11.28-12.08.12:381][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.11.28-12.08.12:400][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
+[2016.11.28-12.08.12:422][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
+[2016.11.28-12.08.12:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
+[2016.11.28-12.08.12:462][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.11.28-12.08.12:466][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.11.28-12.08.12:470][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.11.28-12.08.12:474][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
+[2016.11.28-12.08.12:495][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.11.28-12.08.12:499][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.11.28-12.08.12:502][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.11.28-12.08.12:517][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.11.28-12.08.12:532][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.11.28-12.08.12:566][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.11.28-12.08.12:623][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.11.28-12.08.12:743][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.11.28-12.08.12:839][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.11.28-12.08.12:884][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.11.28-12.08.12:947][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.11.28-12.08.13:142][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.11.28-12.08.13:298][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.11.28-12.08.13:319][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.11.28-12.08.13:352][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.11.28-12.08.13:401][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.11.28-12.08.13:412][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
+[2016.11.28-12.08.13:430][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
+[2016.11.28-12.08.13:455][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
+[2016.11.28-12.08.13:483][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.11.28-12.08.13:490][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.11.28-12.08.13:498][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
+[2016.11.28-12.08.13:510][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
+[2016.11.28-12.08.13:527][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.11.28-12.08.13:550][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.11.28-12.08.13:572][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.11.28-12.08.13:610][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.11.28-12.08.13:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.11.28-12.08.13:665][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.11.28-12.08.13:690][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.11.28-12.08.13:757][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.11.28-12.08.13:813][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.11.28-12.08.13:844][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.11.28-12.08.13:900][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.11.28-12.08.13:914][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.11.28-12.08.13:962][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.11.28-12.08.13:984][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.11.28-12.08.14:004][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.11.28-12.08.14:208][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.11.28-12.08.14:688][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.11.28-12.08.14:703][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.11.28-12.08.14:737][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.11.28-12.08.14:754][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Door_M.uasset"
+[2016.11.28-12.08.14:793][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Door_N.uasset"
+[2016.11.28-12.08.14:814][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.11.28-12.08.14:847][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.11.28-12.08.14:860][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.11.28-12.08.14:879][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.11.28-12.08.14:905][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
+[2016.11.28-12.08.14:919][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
+[2016.11.28-12.08.14:925][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
+[2016.11.28-12.08.14:987][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.11.28-12.08.15:045][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.11.28-12.08.15:076][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.11.28-12.08.15:143][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.11.28-12.08.15:222][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.11.28-12.08.15:292][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.11.28-12.08.15:308][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
+[2016.11.28-12.08.15:337][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
+[2016.11.28-12.08.15:411][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
+[2016.11.28-12.08.15:798][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.11.28-12.08.15:978][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.11.28-12.08.16:042][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.11.28-12.08.16:083][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.11.28-12.08.16:114][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.11.28-12.08.16:139][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.11.28-12.08.16:157][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.11.28-12.08.16:239][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.11.28-12.08.16:270][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.11.28-12.08.16:307][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
+[2016.11.28-12.08.16:332][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
+[2016.11.28-12.08.16:363][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.11.28-12.08.16:407][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.11.28-12.08.16:478][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.11.28-12.08.16:517][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.11.28-12.08.16:557][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.11.28-12.08.16:599][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.11.28-12.08.16:670][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.11.28-12.08.16:709][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.11.28-12.08.16:743][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
+[2016.11.28-12.08.17:050][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
+[2016.11.28-12.08.17:106][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.11.28-12.08.17:191][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.11.28-12.08.17:234][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.11.28-12.08.17:249][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
+[2016.11.28-12.08.17:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
+[2016.11.28-12.08.17:268][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
+[2016.11.28-12.08.17:304][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
+[2016.11.28-12.08.17:334][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
+[2016.11.28-12.08.17:354][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.11.28-12.08.17:365][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.11.28-12.08.17:383][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.11.28-12.08.17:399][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.11.28-12.08.17:409][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.11.28-12.08.17:432][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.11.28-12.08.17:451][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Water_M.uasset"
+[2016.11.28-12.08.17:476][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Water_N.uasset"
+[2016.11.28-12.08.17:505][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.11.28-12.08.17:540][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.11.28-12.08.17:579][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.11.28-12.08.17:597][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.11.28-12.08.17:631][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.11.28-12.08.17:682][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.11.28-12.08.17:726][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.11.28-12.08.17:742][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.11.28-12.08.17:761][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.11.28-12.08.19:077][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:2).
+[2016.11.28-12.08.21:060][  0]LogSavePackage: Save=355.05ms
+[2016.11.28-12.08.21:061][  0]LogSavePackage: Moving '../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Saved/Floor_400x40040CCCA324D03930CD9BB04ADCE452000.tmp' to '../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
+[2016.11.28-12.08.21:095][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
+[2016.11.28-12.08.21:095][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.11.28-12.08.21:143][  0]Cmd: MAP LOAD FILE="../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.28-12.08.21:144][  0]LightingResults: New page: 라이팅 빌드
+[2016.11.28-12.08.21:270][  0]MapCheck: New page: 맵 체크
+[2016.11.28-12.08.21:270][  0]LightingResults: New page: 라이팅 빌드
+[2016.11.28-12.08.21:560][  0]LogTexture:Display: 텍스처 빌드중: T_Chair_N (BC5)
+[2016.11.28-12.08.21:792][  0]LogTexture:Display: 텍스처 빌드중: T_Chair_M (AutoDXT)
+[2016.11.28-12.08.22:500][  0]LogTexture:Display: 텍스처 빌드중: T_Statue_N (BC5)
+[2016.11.28-12.08.22:566][  0]LogTexture:Display: 텍스처 빌드중: T_Statue_M (AutoDXT)
+[2016.11.28-12.08.23:000][  0]LogTexture:Display: 텍스처 빌드중: T_TableRound_N (BC5)
+[2016.11.28-12.08.23:207][  0]LogTexture:Display: 텍스처 빌드중: T_TableRound_M (DXT1)
+[2016.11.28-12.08.23:616][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.28-12.08.23:822][  0]LogTexture:Display: 텍스처 빌드중: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.28-12.08.23:834][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_1 (DXT1)
+[2016.11.28-12.08.23:929][  0]LogTexture:Display: 텍스처 빌드중: LQ_Lightmap_0_2 (DXT1)
+[2016.11.28-12.08.23:934][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_0 (G8)
+[2016.11.28-12.08.23:941][  0]LogTexture:Display: 텍스처 빌드중: ShadowMapTexture2D_1 (G8)
+[2016.11.28-12.08.23:943][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.11.28-12.08.24:150][  0]LogTexture:Display: 텍스처 빌드중: S_AudioComponent_AutoActivate (BGRA8)
+[2016.11.28-12.08.24:180][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.28-12.08.24:299][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.28-12.08.24:419][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 120.747ms.
+[2016.11.28-12.08.24:419][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.277
+[2016.11.28-12.08.26:003][  0]LogCollectionManager: Loaded 0 collections in 0.002742 seconds
+[2016.11.28-12.08.26:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Saved/Collections/' took 0.01s
+[2016.11.28-12.08.26:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/Developers/shinso/Collections/' took 0.01s
+[2016.11.28-12.08.26:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/Collections/' took 0.01s
+[2016.11.28-12.08.26:610][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.11.28-12.08.26:665][  0]LogContentBrowser: Native class hierarchy populated in 0.0491 seconds. Added 2190 classes and 428 folders.
+[2016.11.28-12.08.26:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.28-12.08.26:943][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.28-12.08.26:943][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0007 seconds. Added 13 classes and 0 folders.
+[2016.11.28-12.08.27:186][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.11.28-12.08.28:406][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2016.11.28-12.08.28:695][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.11.28-12.08.29:448][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.28-12.08.29:856][  0]LogTexture:Display: 텍스처 빌드중: Blueprint_64x (BGRA8)
+[2016.11.28-12.08.29:861][  0]LogTexture:Display: 텍스처 빌드중: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.11.28-12.08.29:865][  0]LogTexture:Display: 텍스처 빌드중: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.11.28-12.08.29:870][  0]LogTexture:Display: 텍스처 빌드중: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.11.28-12.08.29:874][  0]LogTexture:Display: 텍스처 빌드중: Landscape (BGRA8)
+[2016.11.28-12.08.29:879][  0]LogTexture:Display: 텍스처 빌드중: Foliage (BGRA8)
+[2016.11.28-12.08.30:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.11.28-12.08.30:207][  0]LogLoad: (Engine Initialization) Total time: 79.65 seconds
+[2016.11.28-12.08.30:207][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.26 seconds
+[2016.11.28-12.08.30:207][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.28-12.08.30:207][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.28-12.08.30:551][  0]LogOcInput: OculusInput pre-init called
+[2016.11.28-12.08.31:754][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.28-12.08.32:127][  0]LogTexture:Display: 텍스처 빌드중: icon_tab_Levels_40x (BGRA8)
+[2016.11.28-12.08.32:532][  0]LogTexture:Display: 텍스처 빌드중: LevelGrid1DStripes (BGRA8)
+[2016.11.28-12.08.33:223][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:3).
+[2016.11.28-12.08.33:732][  2]LogAssetRegistry: Asset discovery search completed in 61.0046 seconds
+[2016.11.28-12.08.33:732][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.28-12.08.33:732][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2016.11.28-12.10.06:829][608]LogTexture:Display: 텍스처 빌드중: CameraActor_64x (BGRA8)
+[2016.11.28-12.10.06:839][608]LogTexture:Display: 텍스처 빌드중: BlueprintInterface_64x (BGRA8)
+[2016.11.28-12.10.06:845][608]LogTexture:Display: 텍스처 빌드중: BlueprintMacroLibrary_64x (BGRA8)
+[2016.11.28-12.10.07:177][608]LogTexture:Display: 텍스처 빌드중: IOS (BGRA8)
+[2016.11.28-12.10.07:186][608]LogTexture:Display: 텍스처 빌드중: android_Icon (BGRA8)
+[2016.11.28-12.10.07:192][608]LogTexture:Display: 텍스처 빌드중: Paper2DFlipbook_TutorialIcon (BGRA8)
+[2016.11.28-12.10.14:182][290]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.11.28-12.10.15:120][291]Cmd: QUIT_EDITOR
+[2016.11.28-12.10.15:221][291]LogExit: Preparing to exit.
+[2016.11.28-12.10.15:899][291]LogDirectoryWatcher: A directory notification for 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/' was aborted.
+[2016.11.28-12.10.15:945][291]LogExit: Editor shut down
+[2016.11.28-12.10.15:945][291]LogExit: Transaction tracking system shut down
+[2016.11.28-12.10.16:025][291]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.28-12.10.16:026][291]LogExit: Object subsystem successfully closed.
+[2016.11.28-12.10.16:049][291]LogD3D11RHI: Shutdown
+[2016.11.28-12.10.16:049][291]LogD3D11RHI: CleanupD3DDevice
+[2016.11.28-12.10.16:111][291]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.28-12.10.16:172][291]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.11.28-12.10.16:172][291]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B103ACF42-46C7-7AB3-47DB-F99091F1F555%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=eb0f5490441b9643e149dca27b03a01a%7C8192111b8aff4021b8101e05c4362eae%7C10b18276-2a3f-4124-94ee-d533653a0111&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.11.28-12.10.16:192][291]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (241)
+[2016.11.28-12.10.16:192][291]LogModuleManager: Shutting down and abandoning module CrashTracker (240)
+[2016.11.28-12.10.16:192][291]LogModuleManager: Shutting down and abandoning module SceneOutliner (239)
+[2016.11.28-12.10.16:198][291]LogModuleManager: Shutting down and abandoning module WidgetCarousel (238)
+[2016.11.28-12.10.16:198][291]LogModuleManager: Shutting down and abandoning module AddContentDialog (237)
+[2016.11.28-12.10.16:211][291]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.14/FeaturePacks/' was aborted.
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module GameplayTags (236)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module EditorWidgets (235)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module CollectionManager (234)
+[2016.11.28-12.10.16:213][291]LogDirectoryWatcher: A directory notification for 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/Collections/' was aborted.
+[2016.11.28-12.10.16:213][291]LogDirectoryWatcher: A directory notification for 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/Developers/shinso/Collections/' was aborted.
+[2016.11.28-12.10.16:213][291]LogDirectoryWatcher: A directory notification for 'C:/Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Saved/Collections/' was aborted.
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module StatsViewer (233)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module FoliageEdit (232)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module LandscapeEditor (231)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (230)
+[2016.11.28-12.10.16:213][291]LogModuleManager: Shutting down and abandoning module ActorPickerMode (229)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module GeometryMode (228)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module TextureAlignMode (227)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module BspMode (226)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module HardwareSurvey (225)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (224)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AutomationWorker (223)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (222)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module PlacementMode (221)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (220)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (219)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (218)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (217)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (216)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module Media (215)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (214)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (213)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module CharacterAI (212)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module SequenceRecorder (211)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AudioCapture (210)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module SmartSnapping (209)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module SessionServices (208)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module ViewportSnapping (207)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module ViewportInteraction (206)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module LogVisualizer (205)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (204)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module IntroTutorials (203)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (202)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (201)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (200)
+[2016.11.28-12.10.16:214][291]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (199)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (198)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (197)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (196)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module InputBindingEditor (195)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2016.11.28-12.10.16:965][291]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (179)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module SettingsEditor (178)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module ProjectLauncher (177)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module SessionFrontend (176)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module ProfilerClient (175)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (174)
+[2016.11.28-12.10.16:966][291]LogModuleManager: Shutting down and abandoning module DeviceManager (173)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module AutomationController (172)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module AutomationWindow (171)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module Layers (170)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (169)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module DetailCustomizations (168)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module PackagesDialog (167)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module AnimGraph (166)
+[2016.11.28-12.10.17:009][291]LogModuleManager: Shutting down and abandoning module Persona (165)
+[2016.11.28-12.10.17:010][291]LogModuleManager: Shutting down and abandoning module Kismet (164)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module GraphEditor (163)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module ClassViewer (162)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module Toolbox (161)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module ModuleUI (160)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module MovieSceneTools (159)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module OutputLog (158)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module GammaUI (157)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module Documentation (156)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module Niagara (155)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (154)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module AnalyticsET (153)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module PortalServices (152)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module PortalRpc (151)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module MessagingRpc (150)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module GameplayDebugger (149)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module AITestSuite (148)
+[2016.11.28-12.10.17:011][291]LogModuleManager: Shutting down and abandoning module AIModule (147)
+[2016.11.28-12.10.17:012][291]LogModuleManager: Shutting down and abandoning module ProfilerService (146)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module TaskGraph (145)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module SlateRemote (144)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module SteamVRController (143)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module SteamVR (142)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (141)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (140)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module OculusLibrary (139)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module OculusInput (138)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (137)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (136)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module CableComponent (135)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (134)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (132)
+[2016.11.28-12.10.17:084][291]LogModuleManager: Shutting down and abandoning module HTML5Networking (131)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (130)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module GeometryCache (129)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module AlembicLibrary (128)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module AlembicImporter (127)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module SuperSearch (126)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (125)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (124)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module PluginBrowser (123)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (122)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module EpicSurvey (121)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module DesktopPlatform (120)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (119)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module UObjectPlugin (118)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (117)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (116)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module SourceControl (115)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module GitSourceControl (114)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (113)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (112)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (111)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module MeshPaint (110)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (109)
+[2016.11.28-12.10.17:085][291]LogModuleManager: Shutting down and abandoning module HotReload (108)
+[2016.11.28-12.10.17:087][291]LogModuleManager: Shutting down and abandoning module MainFrame (107)
+[2016.11.28-12.10.17:087][291]LogModuleManager: Shutting down and abandoning module LevelEditor (106)
+[2016.11.28-12.10.17:088][291]LogModuleManager: Shutting down and abandoning module ContentBrowser (105)
+[2016.11.28-12.10.17:090][291]LogModuleManager: Shutting down and abandoning module Paper2DEditor (104)
+[2016.11.28-12.10.17:090][291]LogModuleManager: Shutting down and abandoning module UdpMessaging (103)
+[2016.11.28-12.10.17:191][291]LogModuleManager: Shutting down and abandoning module TcpMessaging (102)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (101)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module Paper2D (100)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (99)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module MediaAssets (97)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (95)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module VREditor (94)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (93)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (92)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module Sequencer (89)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (88)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module MessageLog (87)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module AssetTools (86)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module UMGEditor (85)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module UMG (84)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module Slate (82)
+[2016.11.28-12.10.17:292][291]LogModuleManager: Shutting down and abandoning module EditorStyle (81)
+[2016.11.28-12.10.17:295][291]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (80)
+[2016.11.28-12.10.17:295][291]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (79)
+[2016.11.28-12.10.17:295][291]LogModuleManager: Shutting down and abandoning module XAudio2 (78)
+[2016.11.28-12.10.17:296][291]LogModuleManager: Shutting down and abandoning module Networking (76)
+[2016.11.28-12.10.17:296][291]LogModuleManager: Shutting down and abandoning module Core (75)
+[2016.11.28-12.10.17:296][291]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (74)
+[2016.11.28-12.10.17:296][291]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.11.28-12.10.17:296][291]LogDirectoryWatcher: A directory notification for '../../../../../../Users/shinso/Desktop/UE4_effect/PJS_Effect_Pack_UE4/Content/' was aborted.
+[2016.11.28-12.10.17:296][291]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.11.28-12.10.17:297][291]LogModuleManager: Shutting down and abandoning module AssetRegistry (73)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module KismetCompiler (72)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module PhysXFormats (71)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (70)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (69)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (68)
+[2016.11.28-12.10.17:374][291]LogModuleManager: Shutting down and abandoning module PropertyEditor (67)
+[2016.11.28-12.10.17:389][291]LogModuleManager: Shutting down and abandoning module MeshUtilities (66)
+[2016.11.28-12.10.17:389][291]LogModuleManager: Shutting down and abandoning module DerivedDataCache (65)
+[2016.11.28-12.10.17:474][291]LogDerivedDataCache: Shutdown
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (64)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (63)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (62)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (61)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (60)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (59)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (58)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (57)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2016.11.28-12.10.17:474][291]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (55)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (54)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (53)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (52)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (51)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (50)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (49)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (48)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (47)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (46)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Messaging (45)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (44)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (43)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (42)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (41)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (40)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (39)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (38)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (37)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (36)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (35)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (34)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (33)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (32)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (31)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (30)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (29)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (28)
+[2016.11.28-12.10.17:475][291]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (27)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (21)
+[2016.11.28-12.10.17:476][291]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (20)
+[2016.11.28-12.10.17:477][291]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (18)
+[2016.11.28-12.10.17:477][291]LogOnline:Display: Unloading online subsystem: NULL
+[2016.11.28-12.10.17:477][291]LogModuleManager: Shutting down and abandoning module SSL (17)
+[2016.11.28-12.10.17:481][291]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.11.28-12.10.17:481][291]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.11.28-12.10.17:482][291]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.28-12.10.17:482][291]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.28-12.10.17:482][291]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.28-12.10.17:482][291]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.28-12.10.17:488][291]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.28-12.10.17:491][291]LogExit: Exiting.
+[2016.11.28-12.10.17:510][291]Log file closed, 11/28/16 21:10:17
